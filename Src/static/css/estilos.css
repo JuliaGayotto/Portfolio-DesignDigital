@@ -1,11 +1,19 @@
-.barra-top{
+
+nav{
     background-color: rgba(248, 209, 246, 0.788);
-    padding: 45px;
-    width: 95%;
-    text-align: end;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
+section{
+    height: 74vh;
+}
 
+
+ /* 
 .texto{ 
     align: center;
     margin: 10%;
@@ -38,6 +46,7 @@
     margin-left: 2%;
 }
 
+
 .direita{
     margin-top: 0%;
     float: right;
@@ -50,6 +59,12 @@
     width: 38%;
 
 }
+*/
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #circulo{
     width: 350px;
     height: 450px;
@@ -58,23 +73,18 @@
     
   
 }
-.logo{
-    text-align: left;
-    width: 38%;
-    float: left;
-
-}
 
 
-.barra-down{
+
+footer{
+    height: 10vh;
     background-color: rgba(248, 209, 246, 0.788);
-    padding-right: 45px;
-    padding-bottom: 0%;
-    position:absolute;
+    position: relative;
 	bottom:0%;
-	width: 97%;
-
+    
 }
+
+/*
 .menu{
     margin: center;
     margin-left: 39%;
@@ -99,3 +109,4 @@
     
 
 }
+*/
