@@ -47,24 +47,26 @@ section{
 }
 
 
-.direita{
-    margin-top: 0%;
-    float: right;
-    text-align: left;
-    width: 66%;
-}
+
 .esquerda{
 
     margin-left: 12%;
     width: 38%;
 
 }
+
+
 */
+.direita{
+    margin-right: 20vh;
+   
+}
 .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 #circulo{
     width: 350px;
     height: 450px;
@@ -73,8 +75,6 @@ section{
     
   
 }
-
-
 
 footer{
     height: 10vh;
