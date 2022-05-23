@@ -1,5 +1,7 @@
 html,body{
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -137,8 +139,8 @@ table{
     height: 55vh;
     align-items: center;
     text-align: center;
-    margin-left: 13%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 3%;
     margin-bottom: 2%;
     
@@ -168,7 +170,7 @@ table{
 .geo-text{
     font-size:x-large;
     text-align: justify;
-    width: 85%;
+    width: 50%;
     margin-left: 10vh;
     margin-right:5vh;
     margin-top: 4vh;
@@ -178,14 +180,16 @@ table{
 .di-text{
     font-size:x-large;
     text-align: justify;
-    width: 80%;
+    width: 50%;
     margin-left: 10vh;
-    margin-right:10vh;
+    margin-right:5vh;
+    align-items:flex-start
 }
 
 .esq-foto{
-    width: 20%;
+    
     margin-left: 9vh;
+    text-align: center;
     
 }
 .e-foto{
@@ -211,6 +215,9 @@ footer{
     flex-shrink: 0;
     background-color: rgba(248, 209, 246, 0.788);
    
+}
+.letra {
+    font-size: 20px;
 }
 
 .ingles{
@@ -247,5 +254,12 @@ footer{
 .titulo{
     text-align: center;
     font-size:xx-large;
-    margin-top: 1%
+    margin-top: 1%;
+    color:rgba(26, 216, 250, 0.849)
+}
+p{
+    text-indent:2em
+}
+.menuzin {
+    font-family:cursive ;
 }
