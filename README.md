@@ -1,5 +1,5 @@
 # Portifolio-DesignDigital
-<h2> Autora:  Júlia Sousa Gayotto. </h2>
+<p> Autora:  Júlia Sousa Gayotto. </p>
 <h2> Projeto referente ao 1º semestre da disciplina de Design Digital da Fatec. </h2>
 <h3> O projeto divide em: </h3>
 <p>•	Uma pasta chamada doc, onde se encontram os wireframes para mobile em formato pdf;
