@@ -17,9 +17,9 @@ def minhas_informacoes():
 def rotina():
     return render_template("rotina.html")
 
-@app.route('/profissional.html')
-def profissional():
-    return render_template("profissional.html")
+@app.route('/meus_projetos.html')
+def meus_projetos():
+    return render_template("meus_projetos.html")
 
 @app.route('/hobbies.html')
 def hobbies():
