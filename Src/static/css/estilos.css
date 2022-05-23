@@ -1,3 +1,4 @@
+/* --------------------------------------------------------------------------configurações básicas-----------------------------------------------------------------------------------------------------*/
 html,body{
     height: 100%;
     margin: 0px;
@@ -8,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/* -------------------------------------------------------------------------------header-----------------------------------------------------------------------------------------------------*/
 header{
     background-color: rgba(248, 209, 246, 0.788);
     padding: 15px;
@@ -26,62 +27,8 @@ header{
 
 }
 
-section{
-    flex: 1 0 auto;
-    
-}
-
-.fot-text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.fot{
-    width: 25%;
-    margin-left: 9vh;
-
-}
-
-
-.tex {
-    font-size:x-large;
-    text-align: justify;
-    width: 75%;
-    margin-right: 20vh;
-
-    
-}
-
-.text-foto{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
-.text {
-    font-size:x-large;
-    text-align: justify;
-    width: 75%;
-    margin-left: 10vh;
-    margin-right:10vh;
-
-    
-}
-
-.foto{
-    width: 20%;
-    margin-right: 18vh;
-    align-items: top;
-}
-
-#mapa{
-    width: 300px;
-    height: 300px;
-    border: 5px solid rgba(248, 209, 246, 0.788);
-    border-radius: 50%;
-    
+.menuzin {
+    font-family:cursive ;
 }
 
 .botao{
@@ -90,14 +37,24 @@ section{
     text-decoration: none;
     
 }
-
-#chess{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-
+/* ----------------------------------------------------------------------section/configurações gerais section----------------------------------------------------------------------------------*/
+section{
+    flex: 1 0 auto;
+    
 }
 
+.titulo{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 1%;
+    color:rgba(26, 216, 250, 0.849)
+}
+
+p{
+    text-indent:2em
+}
+
+/* -------------------------------------------------------------------------------- Minhas Informações ----------------------------------------------------------------------------------------*/
 .esquerda{
 
     margin-left: 35vh;
@@ -134,24 +91,10 @@ section{
   
 }
 
-table{
-    width: 70%;
-    height: 55vh;
-    align-items: center;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    
-    
-}
+/* ---------------------------------------------------------------------------------- Meus Projetos ------------------------------------------------------------------------------------------*/
+
 .git{
     color: rgb(86, 86, 253);
-}
-.gitb{
-    
-    text-align: center;
 }
 
 .wireframe{
@@ -197,6 +140,18 @@ table{
     height: 200px;
     border-radius: 50%;
 }
+/* ---------------------------------------------------------------------------------rotina-----------------------------------------------------------------------------------------------------*/
+table{
+    width: 70%;
+    height: 55vh;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
 .fatec{
     background-color: rgb(252, 209, 248);
 }
@@ -211,21 +166,15 @@ table{
 .academia{
     background-color: rgb(253, 255, 161);
 }
-footer{
-    flex-shrink: 0;
-    background-color: rgba(248, 209, 246, 0.788);
-   
-}
-.letra {
-    font-size: 20px;
-}
 
 .ingles{
     background-color: rgb(137, 249, 253);
 }
+
 .xadrez{
     background-color: rgb(212, 174, 255);
 }
+
 .italiano{
     background-color: rgb(255, 106, 106);
 }
@@ -241,9 +190,11 @@ footer{
 .frances{
     background-color: rgb(185, 255, 144);
 }
+
 .russo{
     background-color: rgb(95, 150, 252);
 }
+
 .libras{
     background-color: rgb(243, 150, 194);
 }
@@ -251,15 +202,74 @@ footer{
 .espanhol{
     background-color: rgb(250, 234, 94);
 }
-.titulo{
-    text-align: center;
-    font-size:xx-large;
-    margin-top: 1%;
-    color:rgba(26, 216, 250, 0.849)
+
+/* ----------------------------------------------------------------------------- Hobbies ------------------------------------------------------------------------------------------------------*/
+.fot-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-p{
-    text-indent:2em
+
+.fot{
+    width: 25%;
+    margin-left: 9vh;
+
 }
-.menuzin {
-    font-family:cursive ;
+
+
+.tex {
+    font-size:x-large;
+    text-align: justify;
+    width: 75%;
+    margin-right: 20vh;
+
+    
+}
+
+#chess{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.text-foto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.text {
+    font-size:x-large;
+    text-align: justify;
+    width: 75%;
+    margin-left: 10vh;
+    margin-right:10vh;
+
+    
+}
+
+.foto{
+    width: 20%;
+    margin-right: 18vh;
+    align-items: top;
+}
+
+#mapa{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgba(248, 209, 246, 0.788);
+    border-radius: 50%;
+    
+}
+
+
+/* ----------------------------------------------------------------------------- footer ------------------------------------------------------------------------------------------------------*/
+footer{
+    flex-shrink: 0;
+    background-color: rgba(248, 209, 246, 0.788);
+   
+}
+.letra {
+    font-size: 20px;
 }
