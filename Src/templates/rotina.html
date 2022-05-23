@@ -5,78 +5,77 @@
     <link rel="stylesheet" href="static\css\estilos.css">
     </head>
     <body>
-        <nav>
-            <div class="logo"> Aqui ficará um logo</div>
-            <div class="menuzin"><a href="index.html"> MENU </a> | <a href="minhas_informacoes.html"> MINHAS INFORMAÇÕES</a> | <a href="rotina.html"> ROTINA </a> | <a href="profissional.html"> PROFISSIONAL </a> | <a href="hobbies.html"> HOBBIES</a> </div>
-        </nav>
+        <header>
+            <img class="logo" src="static/imagens/logo.png" alt=""> 
+            <div class="menuzin"><a class="botao" href="minhas_informacoes.html"> MINHAS INFORMAÇÕES</a> | <a  class="botao" href="rotina.html"> ROTINA </a> | <a class="botao" href="meus_projetos.html"> MEUS PROJETOS</a> | <a  class="botao" href="hobbies.html"> HOBBIES</a> </div>
+        </header>
         
         <section>
-            <p id="titulo" > Rotina</p>
-            <table>
-            <tr>
-            <td></td><th> Segunda</th><th> Terça</th><th>Quarta</th><th>Quinta</th><th>Sexta</th><th>Sábado</th><th>Domingo</th>
-            </tr> 
-            <tr>
-                <th>06:00 - 07:00</th><td>Notícias</td><td>Notícias</td><td>Notícias</td><td>Notícias</td><td>Notícias</td><td>Notícias</td><td>Notícias</td>
-            </tr>
-            <tr>
-                <th>07:00 - 08:00</th><td rowspan=5>Fatec</td><td rowspan=6>Fatec</td><td rowspan=5>Fatec</td><td rowspan=6>Fatec</td><td rowspan=5>Fatec</td><td rowspan=2>Ler</td><td rowspan=3>Ler</td>
-            </tr>
-            <tr>
-                <th>08:00 - 09:00</th>
-            </tr>
-            <tr>
-                <th>09:00 - 10:00</th><td rowspan=3> Inglês</td>
-            </tr>
-            <tr>
-                <th>10:00 - 11:00</th><td rowspan=2> Libras</td>
-            </tr>
-            <tr>
-                <th>11:00 - 12:00</th>
-            </tr>
-            <tr>
-                <th>12:00 - 13:00</th><td>Almoço</td><td>Almoço</td><td>Almoço</td><td>Almoço</td><td>Almoço</td>
-            </tr>
-            <tr>
-                <th>13:00 - 14:00</th><td rowspan=4>Estudar</td><td>Almoço</td><td rowspan=4>Estudar</td><td>Almoço</td><td rowspan=4>Estudar</td><td rowspan=4>Cursos</td><td rowspan=2>Italiano</td>
-            </tr>
-            <tr>
-                <th>14:00 - 15:00</th><td rowspan=4>Estudar</td><td rowspan=4>Estudar</td>
-            </tr>
-            <tr>
-                <th>15:00 - 16:00</th><td>Frances</td>
-            </tr>
-            <tr>
-                <th>16:00 - 17:00</th><td>Russo</td>
-            </tr>
-            <tr>
-                <th>17:00 - 18:00</th><td rowspan=2>Academia</td><td rowspan=2>Academia</td><td rowspan=2>Academia</td>
-            </tr>
-            <tr>
-                <th>18:00 - 19:00</th>
-            </tr>
-            <tr>
-                <th>19:00 - 20:00</th><td></td><td>Ler</td><td></td><td>Ler</td>
-            </tr>
-            <tr>
-                <th>20:00 - 21:00</th><td rowspan=2>Italiano</td><td rowspan=2>Inglês</td><td rowspan=2>Espanhol</td><td rowspan=2>Russo</td><td rowspan=2>Frances</td><td rowspan=2>Xadrez</td>
-            </tr>
-            <tr>
-                <th>21:00 - 22:00</th>
-            </tr>
-
-            </table>    
+            <div class="titulo"> <h1> Rotina</h1> </div>
+            <div class="tabela">
+                <table border="1px">
+                <tr>
+                <td></td><th> Segunda</th><th> Terça</th><th>Quarta</th><th>Quinta</th><th>Sexta</th><th>Sábado</th><th>Domingo</th>
+                </tr> 
+                <tr>
+                    <th>06:00 - 07:00</th><td class="noticias">Notícias</td><td class="noticias">Notícias</td><td class="noticias">Notícias</td><td class="noticias">Notícias</td><td class="noticias">Notícias</td><td class="noticias">Notícias</td><td class="noticias">Notícias</td>
+                </tr>
+                <tr>
+                    <th>07:00 - 08:00</th><td  class="fatec" rowspan=5>Fatec</td><td  class="fatec" rowspan=6>Fatec</td><td  class="fatec" rowspan=5>Fatec</td><td class="fatec" rowspan=6>Fatec</td><td class="fatec" rowspan=5>Fatec</td><td class="ler" rowspan=2>Ler</td><td class="ler" rowspan=3>Ler</td>
+                </tr>
+                <tr>
+                    <th>08:00 - 09:00</th>
+                </tr>
+                <tr>
+                    <th>09:00 - 10:00</th><td class="ingles" rowspan=3> Inglês</td>
+                </tr>
+                <tr>
+                    <th>10:00 - 11:00</th><td class="libras" rowspan=2> Libras</td>
+                </tr>
+                <tr>
+                    <th>11:00 - 12:00</th>
+                </tr>
+                <tr>
+                    <th>12:00 - 13:00</th><td>Almoço</td><td>Almoço</td><td>Almoço</td><td>Almoço</td><td>Almoço</td>
+                </tr>
+                <tr>
+                    <th>13:00 - 14:00</th><td class="estudar" rowspan=4>Estudar</td><td>Almoço</td><td  class="estudar" rowspan=4>Estudar</td><td >Almoço</td><td class="estudar" rowspan=4>Estudar</td><td class="cursos" rowspan=4>Cursos</td><td class="italiano" rowspan=2>Italiano</td>
+                </tr>
+                <tr>
+                    <th>14:00 - 15:00</th><td class="estudar" rowspan=4>Estudar</td><td class="estudar" rowspan=4>Estudar</td>
+                </tr>
+                <tr>
+                    <th>15:00 - 16:00</th><td class="frances">Frances</td>
+                </tr>
+                <tr>
+                    <th>16:00 - 17:00</th><td class="russo">Russo</td>
+                </tr>
+                <tr>
+                    <th>17:00 - 18:00</th><td class="academia" rowspan=2>Academia</td><td class="academia" rowspan=2>Academia</td><td class="academia" rowspan=2>Academia</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <th>18:00 - 19:00</th><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <th>19:00 - 20:00</th><td></td><td class="ler">Ler</td><td></td><td class="ler">Ler</td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <th>20:00 - 21:00</th><td class="italiano" rowspan=2>Italiano</td><td class="ingles" rowspan=2>Inglês</td><td class="espanhol" rowspan=2>Espanhol</td><td class="russo" rowspan=2>Russo</td><td class="frances" rowspan=2>Frances</td><td class="xadrez" rowspan=2>Xadrez</td><td></td>
+                </tr>
+                <tr>
+                    <th>21:00 - 22:00</th><td></td>
+                </tr>
+                </table>  
+            </div>  
         
             
         
         </section>
        
         <footer>
-            <h4 class="texto-bottom" > Contatos</h4>
-            <p class="texto-bottom" > Instagram: @juhhgayotto</p>
-            <p class="texto-bottom" > Linkedin: Júlia Gayotto</p>
+            <h1>Contatos:</h1>
+            <p> Instagram: @juhhgayotto</p>
+            <p> Linkedin: Júlia Gayotto</p>
         </footer>
-
-
     </body>
 </html>
