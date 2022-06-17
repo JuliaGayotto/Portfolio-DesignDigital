@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 /* --------------------------------------------------------------------------configurações básicas-----------------------------------------------------------------------------------------------------*/
 html,body{
     height: 100%;
@@ -28,7 +29,8 @@ header{
 }
 
 .menu {
-    font-family:cursive ;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: large;
 }
 
 .botao{
