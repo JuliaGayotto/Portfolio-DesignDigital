@@ -59,7 +59,7 @@ p{
 /* -------------------------------------------------------------------------------- Minhas Informações ----------------------------------------------------------------------------------------*/
 .esquerda{
 
-    margin-left: 35vh;
+    margin-left: 18%;
     width: 50%;
     align-items:center;
     vertical-align: center;
@@ -70,8 +70,8 @@ p{
 .direita{
     width: 50%;
     font-size:x-large;
-    margin-right: 30vh;
-    margin-left: 10vh;
+    margin-right: 15%;
+    margin-left: 0.5%;
     text-align: justify;
     
     
