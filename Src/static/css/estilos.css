@@ -17,7 +17,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo{
@@ -25,7 +24,6 @@ header{
     justify-items: center;
     margin-left: 1vh;
     border-radius: 10%;
-
 }
 
 .menu {
@@ -37,12 +35,10 @@ header{
     color: black;
     padding: 1px;
     text-decoration: none;
-    
 }
 /* ----------------------------------------------------------------------section/configurações gerais section----------------------------------------------------------------------------------*/
 section{
     flex: 1 0 auto;
-    
 }
 
 .titulo{
@@ -63,7 +59,6 @@ p{
     width: 50%;
     align-items:center;
     vertical-align: center;
-
 }
 
 
@@ -73,8 +68,6 @@ p{
     margin-right: 15%;
     margin-left: 0.5%;
     text-align: justify;
-    
-    
 }
 .info{
     display: flex;
@@ -86,9 +79,7 @@ p{
 #circulo{
     border:5px solid rgb(5, 5, 5);
     border-radius: 49%;
-    filter: saturate(110%)
-    
-  
+    filter: saturate(110%);
 }
 
 /* ---------------------------------------------------------------------------------- Meus Projetos ------------------------------------------------------------------------------------------*/
@@ -191,7 +182,6 @@ table{
 .fot{
     width: 25%;
     margin-left: 10%;
-
 }
 
 
@@ -200,8 +190,6 @@ table{
     text-align: justify;
     width: 75%;
     margin-right: 10%;
-
-    
 }
 
 #chess{
@@ -223,8 +211,6 @@ table{
     width: 75%;
     margin-left: 8%;
     margin-right:5%;
-
-    
 }
 
 .foto{
@@ -236,8 +222,6 @@ table{
 #mapa{
     width: 90%;
     height: 100%;
-  
-    
 }
 
 
@@ -246,7 +230,6 @@ footer{
     flex-shrink: 0;
     background-color: rgba(248, 209, 246, 0.788);
     padding: 0.5%;
-   
 }
 .letra {
     font-size: large;
