@@ -143,13 +143,13 @@ p{
 /* ---------------------------------------------------------------------------------rotina-----------------------------------------------------------------------------------------------------*/
 table{
     width: 70%;
-    height: 55vh;
+    height: 90%;
     align-items: center;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .fatec{
