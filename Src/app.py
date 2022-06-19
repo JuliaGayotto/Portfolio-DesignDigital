@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for 
 
 
-minha_app = Flask("__name__") 
+app = Flask("__name__") 
 
 
 @app.route('/')
