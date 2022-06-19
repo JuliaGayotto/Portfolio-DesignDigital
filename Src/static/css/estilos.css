@@ -5,7 +5,6 @@ html,body{
     margin: 0%;
     padding: 0%;
 }
-
 body{
     display: flex;
     flex-direction: column;
@@ -18,19 +17,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 .logo{
     align-items: flex-end;
     justify-items: center;
     margin-left: 1vh;
     border-radius: 10%;
 }
-
 .menu {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: large;
 }
-
 .botao{
     color: black;
     padding: 1px;
@@ -40,18 +36,15 @@ header{
 section{
     flex: 1 0 auto;
 }
-
 .titulo{
     text-align: center;
     font-size:xx-large;
     margin-top: 1%;
     color:rgba(26, 216, 250, 0.849)
 }
-
 p{
     text-indent:2em
 }
-
 /* -------------------------------------------------------------------------------- Minhas Informações ----------------------------------------------------------------------------------------*/
 .esquerda{
     margin-left: 18%;
@@ -59,8 +52,6 @@ p{
     align-items:center;
     vertical-align: center;
 }
-
-
 .direita{
     width: 50%;
     font-size:x-large;
@@ -74,13 +65,11 @@ p{
     align-items: center;
     margin-bottom: 2%;
 }
-
 #circulo{
     border:5px solid rgb(5, 5, 5);
     border-radius: 49%;
     filter: saturate(110%);
 }
-
 /* ---------------------------------------------------------------------------------- Meus Projetos ------------------------------------------------------------------------------------------*/
 .api{
     margin-left: 11%;
@@ -93,21 +82,17 @@ p{
     height: 10%;
     border-radius: 50%;
 }
-
 .git{
     color: rgb(86, 86, 253);
 }
-
 .wireframe{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     padding-bottom: 2%;
 }
-
 .center{
     text-align: center;
 }
-
 /* ---------------------------------------------------------------------------------rotina-----------------------------------------------------------------------------------------------------*/
 table{
     width: 70%;
@@ -119,53 +104,43 @@ table{
     margin-top: 3%;
     margin-bottom: 4%;
 }
+
 .fatec{
     background-color: rgb(252, 209, 248);
 }
 .noticias{
     background-color: rgb(166, 252, 202);
 }
-
 .estudar {
     background-color: rgb(191, 224, 252);
 }
-
 .academia{
     background-color: rgb(253, 255, 161);
 }
-
 .ingles{
     background-color: rgb(137, 249, 253);
 }
-
 .xadrez{
     background-color: rgb(212, 174, 255);
 }
-
 .italiano{
     background-color: rgb(255, 106, 106);
 }
-
 .cursos{
     background-color: rgb(214, 210, 210);
 }
-
 .ler{
     background-color: rgb(255, 211, 154);
 }
-
 .frances{
     background-color: rgb(185, 255, 144);
 }
-
 .russo{
     background-color: rgb(95, 150, 252);
 }
-
 .libras{
     background-color: rgb(243, 150, 194);
 }
-
 .espanhol{
     background-color: rgb(250, 234, 94);
 }
@@ -176,25 +151,20 @@ table{
     justify-content: space-around;
     align-items: center;
 }
-
 .fot{
     width: 25%;
     margin-left: 10%;
 }
-
-
 .tex {
     font-size:x-large;
     text-align: justify;
     width: 75%;
     margin-right: 10%;
 }
-
 #chess{
     width: 90%;
     height: 100%;
     border-radius: 50%;
-
 }
 .text-foto{
     display: flex;
@@ -202,7 +172,6 @@ table{
     align-items: center;
     margin-bottom: 2%;
 }
-
 .text {
     font-size:x-large;
     text-align: justify;
@@ -210,18 +179,15 @@ table{
     margin-left: 8%;
     margin-right:5%;
 }
-
 .foto{
     width: 30%;
     margin-right: 10%;
     align-items: top;
 }
-
 #mapa{
     width: 90%;
     height: 100%;
 }
-
 /* ----------------------------------------------------------------------------- footer ------------------------------------------------------------------------------------------------------*/
 footer{
     flex-shrink: 0;
@@ -231,50 +197,47 @@ footer{
 .letra {
     font-size: large;
 }
-
 /* ----------------------------------------------------------------------------- responsividade -----------------------------------------------------------------------------------------------*/
-
 @media (max-width:500px){
     .titulo{
          text-align: center;
          font-size:x-large;
          margin-top: 1%;
          color:rgba(26, 216, 250, 0.849)
-     }
+    }
  
-     .menu {
+    .menu {
          font-family: 'Shadows Into Light Two', cursive;
          font-size:smaller;
          margin-left: 3%
-     }
+    }
  
-     .e-foto{
+    .e-foto{
          width: 30%;
          height: 30%;
          border-radius: 50%;
-     }
+    }
  
-     .wireframe{
+    .wireframe{
          width: 100%;
          height: 100%;
          padding-bottom: 2%;
-     }
+    }
  
-     .api{
+    .api{
          margin-left: 11%;
          margin-right: 11%;
          font-size:large;
          text-align: justify;
-     }
+    }
     
-     .logo{
+    .logo{
         align-items: flex-end;
         justify-items: center;
         margin-left: 1vh;
         border-radius: 10%;
         width: 30%;
     }
-
     footer{
         flex-shrink: 0;
         background-color: rgba(248, 209, 246, 0.788);
@@ -284,23 +247,22 @@ footer{
     .letra {
         font-size: medium;
     }
-
    .tabela {
-    overflow-x: auto;
-    font-size: smaller;
-    width: 90%;
-    text-align: left;
-   }
+        overflow-x: auto;
+        font-size: smaller;
+        width: 90%;
+        text-align: left;
+    }
 
-   table{
-    width: 90%;
-    height: 90%;
-    margin-left: 15%;
-    margin-right: 10%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    align-items: center;
-    text-align: left;
+    table{
+        width: 90%;
+        height: 90%;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        align-items: center;
+        text-align: left;
     }
 
     .fot-text{
@@ -327,7 +289,7 @@ footer{
         align-items: center;
         margin-bottom: 2%;
     }
-    
+
     .text {
         font-size:large;
         text-align: justify;
@@ -335,7 +297,7 @@ footer{
         margin-right:1%;
         margin-left: 0%;
     }
-    
+
     .foto{
         width: 80%;
         margin-right: 0%;
@@ -362,8 +324,7 @@ footer{
         text-align: center;
         vertical-align: center;
     }
-    
-    
+
     .direita{
         width: 100%;
         font-size:large;
@@ -371,5 +332,82 @@ footer{
         margin-left: 10%;
         text-align: justify;
     }
-   
- }
+
+} 
+
+@media (max-width:1300px){
+    .info{
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .esquerda{
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+        vertical-align: center;
+    }
+
+    .direita{
+        width: 100%;
+        font-size:xx-large
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: justify;
+    }
+
+    table{
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
+
+
+}
+
+@media (max-width:1000px){
+    .fot-text{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .fot{
+        width: 25%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .tex {
+        font-size:x-large;
+        text-align: justify;
+        width: 80%;
+        margin-right: 1%;
+    }
+
+    .text-foto{
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .text {
+        font-size:x-large;
+        text-align: justify;
+        width: 80%;
+        margin-right:1%;
+        margin-left: 0%;
+    }
+
+    .foto{
+        width: 50%;
+        margin-right: 0%;
+        text-align: center;
+    }
+}
