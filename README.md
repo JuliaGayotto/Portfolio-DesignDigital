@@ -1,7 +1,9 @@
 <h1 align="center">Design Digital - Portfólio💻</h1>
-
-<img src="src\static\imagens\logo.png" style="zoom:25%;" />
-
+<br>
+<div align='center'>
+<img src="Src\static\imagens\logo.png" style="zoom:25%;"/>
+</div>
+<br>
 <div align='center'> <a href='#-descrição-do-projeto-'>Descrição do Projeto </a> |  <a href='#-execução-'>Execução</a> | <a href='#-sobre-o-site-'>Sobre o site</a> | <a href='#-tecnologias'>Tecnologias</a> </div>
 
 <br>
@@ -17,7 +19,8 @@
     <li><strong>README.MD:</strong> arquivo com o detalhamento do projeto.</li>
 </ul>
 
-<br><a href="#Design-Digital---Portfólio">--> voltar ao menu</a>
+<br>
+<a href="#Design-Digital---Portfólio">--> voltar ao menu</a>
 
 <br>
 
@@ -71,19 +74,19 @@
 
 Template Minhas Informações:
 
-<img src="src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
+<img src="Src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
 
 Template Rotina:
 
-<img src="src\static\imagens\rotina.png" style="zoom:25%;" >
+<img src="Src\static\imagens\rotina.png" style="zoom:25%;" >
 
 Template Meus Projetos:
 
-<img src="src\static\imagens\meus_projetos.png" style="zoom:25%;" >
+<img src="Src\static\imagens\meus_projetos.png" style="zoom:25%;" >
 
 Template Hobbies:
 
-<img src="src\static\imagens\hobbies.png" style="zoom:25%;" >
+<img src="Src\static\imagens\hobbies.png" style="zoom:25%;" >
 
 <br>
 
