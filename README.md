@@ -59,7 +59,7 @@
 ```
 
 ```console 
-	cd src
+	cd Src
 ```
 
 ```console 
@@ -78,19 +78,19 @@
 
 Template Minhas Informações:
 
-<img src="src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
+<img src="Src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
 
 Template Rotina:
 
-<img src="src\static\imagens\rotina.png" style="zoom:25%;" >
+<img src="Src\static\imagens\rotina.png" style="zoom:25%;" >
 
 Template Meus Projetos:
 
-<img src="src\static\imagens\meus_projetos.png" style="zoom:25%;" >
+<img src="Src\static\imagens\meus_projetos.png" style="zoom:25%;" >
 
 Template Hobbies:
 
-<img src="src\static\imagens\hobbies.png" style="zoom:25%;" >
+<img src="Src\static\imagens\hobbies.png" style="zoom:25%;" >
 
 <br>
 
