@@ -13,7 +13,7 @@ body{
 /* -------------------------------------------------------------------------------header-----------------------------------------------------------------------------------------------------*/
 header{
     background-color: rgba(248, 209, 246, 0.788);
-    padding: 1.5%;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -342,5 +342,34 @@ footer{
         text-align: center;
     }
 
+    header{
+        background-color: rgba(248, 209, 246, 0.788);
+        padding: 1.5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .info{
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .esquerda{
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+        vertical-align: center;
+    }
+    
+    
+    .direita{
+        width: 100%;
+        font-size:large;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: justify;
+    }
+   
  }
