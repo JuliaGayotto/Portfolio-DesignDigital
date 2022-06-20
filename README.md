@@ -2,7 +2,7 @@
 
 <br>
 <div align='center'>
-<img src="Src\static\imagens\logo.png" style="zoom:25%;"/>
+<img src="src\static\imagens\logo.png" style="zoom:25%;"/>
 </div>
 <br>
 
@@ -16,7 +16,7 @@
 <ul>
     <li><strong>Pasta doc:</strong> onde se encontram os wireframes para mobile em formato pdf </li>
     <br>
-     <li><strong>Pasta Src:</strong> pasta templates contém as páginas do site; pasta static contém as imagens e o arquivo de estilização em css; arquivo app.py com os códigos python; e arquivo _init_.py.</li>
+     <li><strong>Pasta src:</strong> pasta templates contém as páginas do site; pasta static contém as imagens e o arquivo de estilização em css; arquivo app.py com os códigos python; e arquivo _init_.py.</li>
     <br>
     <li><strong>README.MD:</strong> arquivo com o detalhamento do projeto.</li>
     <br>
@@ -59,7 +59,7 @@
 ```
 
 ```console 
-	cd Src
+	cd src
 ```
 
 ```console 
@@ -78,19 +78,19 @@
 
 Template Minhas Informações:
 
-<img src="Src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
+<img src="src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
 
 Template Rotina:
 
-<img src="Src\static\imagens\rotina.png" style="zoom:25%;" >
+<img src="src\static\imagens\rotina.png" style="zoom:25%;" >
 
 Template Meus Projetos:
 
-<img src="Src\static\imagens\meus_projetos.png" style="zoom:25%;" >
+<img src="src\static\imagens\meus_projetos.png" style="zoom:25%;" >
 
 Template Hobbies:
 
-<img src="Src\static\imagens\hobbies.png" style="zoom:25%;" >
+<img src="src\static\imagens\hobbies.png" style="zoom:25%;" >
 
 <br>
 
