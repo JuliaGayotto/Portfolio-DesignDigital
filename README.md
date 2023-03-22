@@ -2,7 +2,7 @@
 
 <br>
 <div align='center'>
-<img src="src\static\imagens\logo.png" style="zoom:25%;"/>
+<img src="src\api\static\imagens\J.png" style="zoom:25%;"/>
 </div>
 <br>
 
@@ -16,7 +16,7 @@
 <ul>
     <li><strong>Pasta doc:</strong> onde se encontram os wireframes para mobile em formato pdf </li>
     <br>
-     <li><strong>Pasta src:</strong> pasta templates contém as páginas do site; pasta static contém as imagens e o arquivo de estilização em css; arquivo app.py com os códigos python; e arquivo _init_.py.</li>
+     <li><strong>Pasta src:</strong> pasta api, com as pastas templates, que contém as páginas do site, pasta static, contendo as imagens e o arquivo de estilização em css, e o  arquivo app.py com o código python.</li>
     <br>
     <li><strong>README.MD:</strong> arquivo com o detalhamento do projeto.</li>
     <br>
@@ -66,7 +66,7 @@
 	cd api 
 ```
 
-```
+```console
 	flask run
 ```
 
@@ -75,32 +75,6 @@
 <br>
 
 <a href="#Design-Digital---Portfólio">--> voltar ao menu</a>
-
-<br>
-
-<h2>🔍 Sobre o site </h2>
-
-Template Minhas Informações:
-
-<img src="src\static\imagens\minhas_informacoes.png" style="zoom:25%;" >
-
-Template Rotina:
-
-<img src="src\static\imagens\rotina.png" style="zoom:25%;" >
-
-Template Meus Projetos:
-
-<img src="src\static\imagens\meus_projetos.png" style="zoom:25%;" >
-
-Template Hobbies:
-
-<img src="src\static\imagens\hobbies.png" style="zoom:25%;" >
-
-<br>
-
-<a href="#Design-Digital---Portfólio">--> voltar ao menu</a>
-
-
 
 <h1>🛠 Tecnologias:</h1>
 
@@ -113,10 +87,3 @@ Template Hobbies:
 </ul>
 
 <br><a href="#-grupo-5---braziliantech"><a href="#Design-Digital---Portfólio">--> voltar ao menu</a></a>
-
-
-
-
-
-
-
