@@ -55,14 +55,18 @@
 ```
 
 ```console 
-	pip install -r requirements.txt
-```
-
-```console 
 	cd src
 ```
 
 ```console 
+	pip install -r requirements.txt
+```
+
+```console 
+	cd api 
+```
+
+```
 	flask run
 ```
 
